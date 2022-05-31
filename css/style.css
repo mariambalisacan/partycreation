@@ -1,0 +1,219 @@
+/* Color 
+	
+	Gold #ff9b00
+	
+*/
+
+a.black{
+	color: #000 !important;
+}
+
+a.black:hover{
+	color: #ff9b00 !important;
+}
+
+a.btn-main {
+    background-color: #ff9b00;
+    color: #000;
+    font-size: 20px;
+    padding: 1rem 4rem !important;
+    font-family: 'Secular One', sans-serif;
+}
+
+a.btn-main:hover { 
+	background-color: #000;
+	color: #fff;
+}
+
+a {
+	color: #ff9b00;
+}
+
+a:focus {
+    box-shadow: none !important;
+}
+
+a:hover {
+	color: #000;
+    text-decoration: none;
+}
+
+a.white {
+	color: #fff;
+}
+a.white:hover {
+	color: #ff9b00; 
+}
+
+.text-shadow { 
+    text-shadow: 2px 2px 8px #000;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus
+input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid #ff9b00;
+}
+
+.btn-yellow {
+	background: #ff9b00;
+    border: #fff;
+    padding: 0.5rem 1rem;
+    outline: none;
+	cursor: pointer;
+}
+
+.btn-yellow:focus {  
+    outline: none;
+}
+
+.btn-yellow:hover {
+	background: #000;
+	color: #fff;
+}
+
+.p-bottom {
+	padding-bottom: 3rem;
+}
+
+.top {
+	top: 2rem;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+
+/* Home */
+.logo {
+	width: 	100px;
+}
+
+.header-link {
+	font-family: 'Open Sans', sans-serif !important;
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.header-link:hover {
+	color: #ff9b00;
+ 	text-decoration: none;
+}
+
+/* PORTFOLIO */
+.fancybox-lock .fancybox-overlay {
+	background: #000000c2; 
+}
+
+/* CONTACT */
+.contact{
+	padding: 4%;  
+}
+
+.contact-bg {
+	background: url('../img/contact_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-side {
+	background: #ff9b00;
+	padding: 2rem 0.5rem;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.contact-side-right {
+	background: #fff;
+	padding: 3%;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+	text-align: left;
+}
+
+.round-white {
+	background: #000;
+    color: #ff9b00;
+    border-radius: 15px;
+    padding: 0.25rem;
+}
+
+.round-yellow {
+	background: #ff9b00;
+    color: #000;
+    border-radius: 24px;
+    padding: 0.1rem 0.2rem;
+}
+
+.contact-social{
+	padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.contact-social-text {
+	color: #000;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-white {
+	color: #fff;
+}
+
+
+/* Cart */
+.navbar-top .shopping-cart {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+
+.shopping-cart .sum-prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+}
+
+#sum-prices {
+    padding-left: 5px;
+}
+
+.sum-prices h6 {
+    font-size: 0.9rem;
+}
+
+.shoppingCartButton {
+    color: #fff;
+    cursor: pointer;
+}
+
+.shoppingCartButton:hover,
+.account:hover * {
+    color: #ff9b00;
+}
+
+.flex {
+	display: flex;
+}
+
+.gold {
+	color: #ff9b00; 
+}

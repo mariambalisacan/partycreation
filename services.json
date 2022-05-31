@@ -1,0 +1,204 @@
+[
+    {
+        "id": "s1",
+        "name": "BALLOONS",
+        "list": {
+            "categories": "LATEX BALLOONS",
+            "details": 
+            [
+                {
+                    "name": "Standard Balloons",
+                    "images": "",
+                    "price": "15"
+                }
+            ]
+        }
+    },
+    {
+        "id": "s2",
+        "name": "CAKES",
+        "list": {  
+            "details": 
+            [
+                {
+                    "name": "Birthday",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Baby",
+                    "images": "",
+                    "price": "15"
+                }, 
+                {
+                    "name": "Anniversary",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Mother's Day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Father's Day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Love",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Ramadan/ Eid",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Graduation",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Diwali",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "UAE National day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Christmas",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "New Year",
+                    "images": "",
+                    "price": "15"
+                }
+            ]
+        }
+    },
+    {
+        "id": "s2",
+        "name": "HAMPER/ GIFT BOX",
+        "list": {  
+            "details": 
+            [
+                {
+                    "name": "Birthday",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Baby",
+                    "images": "",
+                    "price": "15"
+                }, 
+                {
+                    "name": "Anniversary",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Mother's Day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Father's Day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Love",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Ramadan/ Eid",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Graduation",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Diwali",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "UAE National day",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Christmas",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "New Year",
+                    "images": "",
+                    "price": "15"
+                }
+            ]
+        }
+    },
+    {
+        "id": "s2",
+        "name": "GIFT ITEM",
+        "list": {  
+            "details": 
+            [
+                {
+                    "name": "Accessories",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "ASDFSWQAZFZ",
+                    "images": "",
+                    "price": "15"
+                }, 
+                {
+                    "name": "Caps",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Watch",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Shirt",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Bags",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Ramadan/ Eid",
+                    "images": "",
+                    "price": "15"
+                },
+                {
+                    "name": "Wallet",
+                    "images": "",
+                    "price": "15"
+                }
+            ]
+        }
+    }
+]
