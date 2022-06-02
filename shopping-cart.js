@@ -24,7 +24,7 @@ const updateShoppingCartHTML = function () {  // 3
 					<img src="${product.image}">
 					<div>
 						<h5>${product.name}</h5>
-						<h6>AED ${product.price}</h6>
+						<h6>${product.price} AED</h6>
 						<div>
 							<button class="button-minus" data-id=${product.id}>-</button>
 							<span class="countOfProduct">${product.count}</span>
@@ -35,7 +35,7 @@ const updateShoppingCartHTML = function () {  // 3
 		});
 		parentElement.innerHTML = result.join('');
 		document.querySelector('.checkout').classList.remove('hidden');
-		cartSumPrice.innerHTML = 'AED ' + countTheSumPrice();
+		cartSumPrice.innerHTML =countTheSumPrice() + ' AED ';
 
 	}
 	else {
