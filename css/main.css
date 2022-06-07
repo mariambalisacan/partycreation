@@ -42,6 +42,10 @@ ul {
     list-style-type: none;
 }
 
+ul.desc>li {
+    display:inline;
+  }
+
 button:focus {
     outline: none;
 }
@@ -964,7 +968,7 @@ footer .footer-second {
     } 
 
     .product { 
-        height: 325px;
+        height: 405px;
     }
 
     .products {
@@ -1118,7 +1122,7 @@ li.list-inline-item a {
     content: "";
     position: absolute;
     width: 8%;
-    left: 55%;
+    left: 61%;
     height: 52px;
     border-bottom: 2px solid #ff9b00;
 }
@@ -1219,3 +1223,5 @@ h3.my-heading {
 span.bg-main {
     color: #ffd700;
 }
+
+

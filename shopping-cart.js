@@ -24,6 +24,7 @@ const updateShoppingCartHTML = function () {  // 3
 					<img src="${product.image}">
 					<div>
 						<h5>${product.name}</h5>
+						<h5>Code: ${product.id}</h5>
 						<h6>${product.price} AED</h6>
 						<div>
 							<button class="button-minus" data-id=${product.id}>-</button>
