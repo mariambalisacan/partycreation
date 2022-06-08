@@ -981,6 +981,14 @@ footer .footer-second {
 }  
 
 @media screen and (max-width: 768px) { 
+
+    .product-image {
+        position: relative;
+        height: 50%;
+        background-color: #eee;
+    }
+
+
     .account-btn {
         font-size: 1rem;
     } 
@@ -1028,7 +1036,7 @@ footer .footer-second {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
     .btn {
         font-size: 0.9rem;
     }
