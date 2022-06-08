@@ -1062,7 +1062,7 @@ footer .footer-second {
 
     .product-image {
         position: relative;
-        height: 40%;
+        height: 50%;
         background-color: #eee;
     }
 
@@ -1071,7 +1071,7 @@ footer .footer-second {
         font-size: 0.9rem;
         position: relative;
         padding: 10px 5px;
-        height: 50%;
+        height: 40%;
     }
 
     .product {
