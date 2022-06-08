@@ -1054,6 +1054,12 @@ footer .footer-second {
 }
 
 @media screen and (max-width: 480px) { 
+
+
+    .product {
+        height: 300px;
+    }
+    
     .products {
         width: 90%;
         margin: auto;
