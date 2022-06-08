@@ -981,14 +981,6 @@ footer .footer-second {
 }  
 
 @media screen and (max-width: 768px) { 
-
-    .product-image {
-        position: relative;
-        height: 50%;
-        background-color: #eee;
-    }
-
-
     .account-btn {
         font-size: 1rem;
     } 
@@ -1037,6 +1029,31 @@ footer .footer-second {
 }
 
 @media screen and (max-width: 500px) { 
+    .products {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+
+    .product-image {
+        position: relative;
+        height: 50%;
+        background-color: #eee;
+    }
+
+
+    .product-summary {
+        font-size: 0.9rem;
+        position: relative;
+        padding: 10px 5px;
+        height: 50%;
+    }
+
+    .product {
+        height: 300px;
+    }
+
+
     .btn {
         font-size: 0.9rem;
     }
