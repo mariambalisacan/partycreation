@@ -1005,7 +1005,7 @@ footer .footer-second {
     .product {
         height: 300px;
     }
-    
+
     .account-btn {
         font-size: 1rem;
     } 
@@ -1053,7 +1053,7 @@ footer .footer-second {
     }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 480px) { 
     .products {
         width: 90%;
         margin: auto;
@@ -1062,7 +1062,7 @@ footer .footer-second {
 
     .product-image {
         position: relative;
-        height: 50%;
+        height: 40%;
         background-color: #eee;
     }
 
