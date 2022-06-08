@@ -92,6 +92,24 @@ nav .navbar-top {
     position: fixed;
 }
 
+.my-heading {
+    /*font-family: 'Kaushan Script', cursive;*/
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin:0; 
+}
+
+.headline h1:after {
+  position: absolute;
+  left: calc(50% - 35px);
+  display: block;
+  width: 70px;
+  border-bottom: 3px solid #ffd700;
+  content: "";
+  margin: 10px;
+}
+
 .logo {
     color: #fff;
 }
