@@ -1053,12 +1053,7 @@ footer .footer-second {
     }
 }
 
-@media screen and (max-width: 480px) { 
-
-
-    .product {
-        height: 300px;
-    }
+@media screen and (max-width: 480px) {  
 
     .products {
         width: 90%;
@@ -1068,8 +1063,12 @@ footer .footer-second {
 
     .product-image {
         position: relative;
-        height: 60%;
+        height: 50%;
         background-color: #eee;
+    }
+
+    .price { 
+        margin: 0;
     }
 
 
@@ -1081,7 +1080,7 @@ footer .footer-second {
     }
 
     .product {
-        height: 300px;
+        height: 350px;
     }
 
 
