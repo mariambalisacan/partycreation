@@ -1059,7 +1059,7 @@ footer .footer-second {
     .product {
         height: 300px;
     }
-    
+
     .products {
         width: 90%;
         margin: auto;
@@ -1068,7 +1068,7 @@ footer .footer-second {
 
     .product-image {
         position: relative;
-        height: 50%;
+        height: 60%;
         background-color: #eee;
     }
 
