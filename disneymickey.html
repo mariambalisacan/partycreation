@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- style -->  
+        <link type="text/css" href="css/main.css" rel="stylesheet" /> 
+        
+        <!-- font awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+      
+        <script src="JS/jquery-3.5.1.min.js"></script>
+        <script src="JS/multislider.min.js"></script>
+        <title>Party Creations</title>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav>
+            <!--Navbar has two part the top one and the bottom one-->
+            <!--Here is top one and in this part I put logo, my account part, and the shopping cart-->
+            <div class="navbar-top">
+                <div>
+                    <button id="menuButton"><i class="fa fa-bars"></i></button>
+                    <!--Logo-->
+                    <a href="index.html"> 
+                        <h3 class="my-heading logo">PARTY<span class="bg-main">CREATIONS</span></h3>
+                    </a>
+                </div>
+                <div>  
+                    <!-- Here I put the links to the other pages or nav links -->
+                    <div class="navbar" id="navbar">
+                        <div class="links">
+                            <ul>
+                                <li class="nav-links">
+                                    <a href="" class="link">Balloon</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Cakes</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Hamper/ Gift Box</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Gift Item</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+
+                    <!--Shopping cart-->
+                    <div class="shopping-cart">
+                        <div class="sum-prices">
+                            <!--Shopping cart logo-->
+                            <i class="fa fa-shopping-cart shoppingCartButton"></i> 
+                            <h6 id="sum-prices"></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar bottom part -->
+            
+            <div class="producstOnCart hide">
+                <div class="overlay"></div>
+                <div class="top">
+                    <button id="closeButton">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                    <h3>CART</h3>
+                </div>
+                <ul id="buyItems">
+                    <h4 class="empty">Your shopping cart is empty</h4> 
+                </ul>
+                <button class="btn checkout hidden" href="checkout.html">Check out</button>
+            </div>
+        </nav> 
+        <main>  
+            <section class="main-section">
+
+                <div class="gallery">
+                    <a class="gallery-inactive" href="latexballoon.html"><h1 class="gallery-title">Latex Balloon/ Party Item</h1></a>
+                    <a href="balloon.html"><h1 class="gallery-title-active foil">Foil Balloon</h1></a>
+                </div>
+        
+                <div class="center">
+                    <a href="balloon.html"><button class="btn btn-default filter-button">All</button></a>
+                    <a href="personalized.html"><button class="btn btn-default filter-button">Personalized</button></a>
+                    <a href="birthday.html"><button class="btn btn-default filter-button">Birthday</button></a>
+                    <a href="firstbirthday.html"><button class="btn btn-default filter-button">1st Birthday</button></a>
+                </div>
+                <br/>
+
+                <div class="product-container">  
+                    <div class="products">
+                    
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/089209.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="089209">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickey Super Cool Disney Plastic Table Cover</h4>  
+                                    <p>120x180cm</p>
+                                    <p>Code: 089209</p>
+                                    <h6 class="price"><span class="priceValue">22</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/120247.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="120247">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Giant Banner</h4>  
+                                    <p>Code: 120247</p>
+                                    <h6 class="price"><span class="priceValue">16</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/121833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="121833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickey's Fun To Be One Jumbo Letter Banner</h4>  
+                                    <p>2pcs</p>
+                                    <p>Code: 121833</p>
+                                    <h6 class="price"><span class="priceValue">36</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/171833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="171833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Birthday Candle</h4>  
+                                    <p>Set 4pcs</p>
+                                    <p>Code: 171833</p>
+                                    <h6 class="price"><span class="priceValue">20</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/241592.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="241592">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One High Chair Decorating Kit</h4>   
+                                    <p>Code: 241592</p>
+                                    <h6 class="price"><span class="priceValue">32</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/241833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="241833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Room Decorating Kit</h4>   
+                                    <p>Code: 241833</p>
+                                    <h6 class="price"><span class="priceValue">54</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/250639.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="250639">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Paper Crown</h4> 
+                                    <p>Code: 250639</p>
+                                    <h6 class="price"><span class="priceValue">12</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/251833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="251833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Paper Cone Hats</h4>  
+                                    <p>8pcs</p>
+                                    <p>Code: 251833</p>
+                                    <h6 class="price"><span class="priceValue">20</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/281833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="281833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Table Decorating Kit</h4>   
+                                    <p>Code: 281833</p>
+                                    <h6 class="price"><span class="priceValue">34</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/371833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="371833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Folded Loot Bags</h4>  
+                                    <p>8pcs</p>
+                                    <p>Code: 371833</p>
+                                    <h6 class="price"><span class="priceValue">12</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/431833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="431833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Vinyl Bib</h4>   
+                                    <p>Code: 431833</p>
+                                    <h6 class="price"><span class="priceValue">20</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/501833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="501833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Beverage Tissues</h4>  
+                                    <p>16pcs</p>
+                                    <p>Code: 501833</p>
+                                    <h6 class="price"><span class="priceValue">16</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/511833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="511833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Lunch Tissues</h4>  
+                                    <p>16pcs</p>
+                                    <p>Code: 511833</p>
+                                    <h6 class="price"><span class="priceValue">18</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/541833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="541833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Square Plates</h4>  
+                                    <p>7in 8pcs</p>
+                                    <p>Code: 541833</p>
+                                    <h6 class="price"><span class="priceValue">17</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/551833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="551833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickey's Fun To Be One Square Plates</h4>  
+                                    <p>9in, 8pcs</p>
+                                    <p>Code: 551833</p>
+                                    <h6 class="price"><span class="priceValue">20</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/571833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="571833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Plastic Tablecover</h4>   
+                                    <p>Code: 571833</p>
+                                    <h6 class="price"><span class="priceValue">25</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/581833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="581833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Paper Cups</h4>  
+                                    <p>9oz 8pcs</p>
+                                    <p>Code: 581833</p>
+                                    <h6 class="price"><span class="priceValue">16</span> AED</h6> 
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/670595.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="670595">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One String Decoration</h4>  
+                                    <p>7ft-6pcs</p>
+                                    <p>Code: 670595</p>
+                                    <h6 class="price"><span class="priceValue">20</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/disney_mickey/671833.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="671833">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Mickeys Fun To Be One Swirl Decorations</h4>  
+                                    <p>12pcs</p>
+                                    <p>Code: 671833</p>
+                                    <h6 class="price"><span class="priceValue">26</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>  
+                </div>
+                </div>
+            </section>
+            
+            <div class="scroll-top-wrapper ">
+                <span class="scroll-top-inner">
+                  <i class="fa fa-2x fa-arrow-circle-up"></i>
+                </span>
+              </div>
+        </main>
+        
+        
+
+        <!-- <footer class="footer">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-lg-6 text-center text-lg-left my-auto  wow zoomIn">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Occasion</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Port Folio</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Our Services</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">© PartyCreations 2022. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-right my-auto  wow zoomIn">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fa fa-facebook fa-2x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fa fa-instagram fa-2x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fa fa-whatsapp fa-2x fa-fw"></i>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </footer> --> 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="shopping-cart.js"></script>
+        <script text/javascript>
+            $(document).ready(function(){
+
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+                
+                if(value == "all")
+                {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                }
+                else
+                {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+                    
+                }
+            });
+
+            if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+            });
+        </script>
+        <script text/javascript>
+            $(document).ready(function(){ 
+                $(function(){
+                
+                    $(document).on( 'scroll', function(){
+                
+                        if ($(window).scrollTop() > 100) {
+                            $('.scroll-top-wrapper').addClass('show');
+                        } else {
+                            $('.scroll-top-wrapper').removeClass('show');
+                        }
+                    });
+                
+                    $('.scroll-top-wrapper').on('click', scrollToTop);
+                });
+                
+                function scrollToTop() {
+                    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+                    element = $('body');
+                    offset = element.offset();
+                    offsetTop = offset.top;
+                    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+                }
+
+                });     
+        </script>
+    </body>
+</html>

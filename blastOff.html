@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- style -->  
+        <link type="text/css" href="css/main.css" rel="stylesheet" /> 
+        
+        <!-- font awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+      
+        <script src="JS/jquery-3.5.1.min.js"></script>
+        <script src="JS/multislider.min.js"></script>
+        <title>Party Creations</title>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav>
+            <!--Navbar has two part the top one and the bottom one-->
+            <!--Here is top one and in this part I put logo, my account part, and the shopping cart-->
+            <div class="navbar-top">
+                <div>
+                    <button id="menuButton"><i class="fa fa-bars"></i></button>
+                    <!--Logo-->
+                    <a href="index.html"> 
+                        <h3 class="my-heading logo">PARTY<span class="bg-main">CREATIONS</span></h3>
+                    </a>
+                </div>
+                <div>  
+                    <!-- Here I put the links to the other pages or nav links -->
+                    <div class="navbar" id="navbar">
+                        <div class="links">
+                            <ul>
+                                <li class="nav-links">
+                                    <a href="" class="link">Balloon</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Cakes</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Hamper/ Gift Box</a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="" class="link">Gift Item</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+
+                    <!--Shopping cart-->
+                    <div class="shopping-cart">
+                        <div class="sum-prices">
+                            <!--Shopping cart logo-->
+                            <i class="fa fa-shopping-cart shoppingCartButton"></i> 
+                            <h6 id="sum-prices"></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar bottom part -->
+            
+            <div class="producstOnCart hide">
+                <div class="overlay"></div>
+                <div class="top">
+                    <button id="closeButton">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                    <h3>CART</h3>
+                </div>
+                <ul id="buyItems">
+                    <h4 class="empty">Your shopping cart is empty</h4> 
+                </ul>
+                <button class="btn checkout hidden" href="checkout.html">Check out</button>
+            </div>
+        </nav> 
+        <main>  
+            <section class="main-section">
+
+                <div class="gallery">
+                    <a class="gallery-inactive" href="latexballoon.html"><h1 class="gallery-title">Latex Balloon/ Party Item</h1></a>
+                    <a href="balloon.html"><h1 class="gallery-title-active foil">Foil Balloon</h1></a>
+                </div>
+        
+                <div class="center">
+                    <a href="balloon.html"><button class="btn btn-default filter-button">All</button></a>
+                    <a href="personalized.html"><button class="btn btn-default filter-button">Personalized</button></a>
+                    <a href="birthday.html"><button class="btn btn-default filter-button">Birthday</button></a>
+                    <a href="firstbirthday.html"><button class="btn btn-default filter-button">1st Birthday</button></a>
+                </div>
+                <br/>
+
+                <div class="product-container">  
+                    <div class="products">
+                    
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/120440.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="120440">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Banner Kit</h4> 
+                                    <p>2pcs</p>
+                                    <p>Code: 120440</p>
+                                    <h6 class="price"><span class="priceValue">42</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/140261.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="140261">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Cupcake Cases Picks</h4> 
+                                    <p>48pcs</p>
+                                    <p>Code: 140261</p>
+                                    <h6 class="price"><span class="priceValue">16</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/142278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="142278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Rocket Shaped Treat Stand</h4>  
+                                    <p>Code: 142278</p>
+                                    <h6 class="price"><span class="priceValue">44</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/170590.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="170590">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birhday Candle Mix</h4> 
+                                    <p>8pcs</p>
+                                    <p>Code: 170590</p>
+                                    <h6 class="price"><span class="priceValue">42</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/282278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="282278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Table Decorating Kit</h4> 
+                                    <p>8pcs</p>
+                                    <p>Code: 282278</p>
+                                    <h6 class="price"><span class="priceValue">38</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/572278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="572278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Plastic Tablecover</h4>  
+                                    <p>Code: 572278</p>
+                                    <h6 class="price"><span class="priceValue">25</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/582278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="582278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Paper Cups</h4>  
+                                    <p>9oz 8pcs</p>
+                                    <p>Code: 582278</p>
+                                    <h6 class="price"><span class="priceValue">16</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/672278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="672278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Swirl Decorations</h4>  
+                                    <p>12pcs</p>
+                                    <p>Code: 672278</p>
+                                    <h6 class="price"><span class="priceValue">26</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                         
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/2402278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="2402278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Planet Lanterns</h4>  
+                                    <p>5pcs</p>
+                                    <p>Code: 2402278</p>
+                                    <h6 class="price"><span class="priceValue">60</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3848001.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3848001">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast off Birthday SuperShape Balloon</h4>  
+                                    <p>53x73cm</p>
+                                    <p>Code: 3848001</p>
+                                    <h6 class="price"><span class="priceValue">40</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3849002.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3849002">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast off Birthday Mini Shape</h4>  
+                                    <p>Foil Balloon</p>
+                                    <p>Code: 3849002</p>
+                                    <h6 class="price"><span class="priceValue">10.50</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3894701.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3894701">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast off Birthday</h4>  
+                                    <p>Foil Balloon 45cm</p>
+                                    <p>Code: 3894701</p>
+                                    <h6 class="price"><span class="priceValue">17</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3900713.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3900713">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Astronaut Helmet</h4>   
+                                    <p>Code: 3900713</p>
+                                    <h6 class="price"><span class="priceValue">40</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3900780.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3900780">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Inflatable Astronaut</h4>   
+                                    <p>Code: 3900780</p>
+                                    <h6 class="price"><span class="priceValue">38</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3900782.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3900782">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Glow In Dark Aliens Favors</h4>   
+                                    <p>8pcs</p>
+                                    <p>Code: 3900782</p>
+                                    <h6 class="price"><span class="priceValue">10</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3902278.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3902278">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Favor Boxes</h4>   
+                                    <p>8pcs</p>
+                                    <p>Code: 3902278</p>
+                                    <h6 class="price"><span class="priceValue">40</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/3947901.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="3947901">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast off Balloon Bouquet</h4>   
+                                    <p>5pcs</p>
+                                    <p>Code: 3947901</p>
+                                    <h6 class="price"><span class="priceValue">90</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div> 
+
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/5122783.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="5122783">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off 1st Birthday Lunch Tissues</h4>   
+                                    <p>16pcs</p>
+                                    <p>Code: 5122783</p>
+                                    <h6 class="price"><span class="priceValue">18</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="Images/balloon/foil/firstbirthday/blast_off_first_bday_boy/5422781.png"/>
+                                    <div class="product-over"> 
+                                        <a class="btn btn-small addToCart" data-product-id="5422781">Add to cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Blast Off Birthday Metallic Plates</h4>   
+                                    <p>7in 8pcs</p>
+                                    <p>Code: 5422781</p>
+                                    <h6 class="price"><span class="priceValue">19</span> AED</h6> 
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+            </section>
+            
+            <div class="scroll-top-wrapper ">
+                <span class="scroll-top-inner">
+                  <i class="fa fa-2x fa-arrow-circle-up"></i>
+                </span>
+              </div>
+        </main>
+        
+        
+
+        <!-- <footer class="footer">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-lg-6 text-center text-lg-left my-auto  wow zoomIn">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Occasion</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Port Folio</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Our Services</a>
+                            </li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">© PartyCreations 2022. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-right my-auto  wow zoomIn">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fa fa-facebook fa-2x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fa fa-instagram fa-2x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="fa fa-whatsapp fa-2x fa-fw"></i>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </footer> --> 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="shopping-cart.js"></script>
+        <script text/javascript>
+            $(document).ready(function(){
+
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+                
+                if(value == "all")
+                {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                }
+                else
+                {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+                    
+                }
+            });
+
+            if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+            });
+        </script>
+        <script text/javascript>
+            $(document).ready(function(){ 
+                $(function(){
+                
+                    $(document).on( 'scroll', function(){
+                
+                        if ($(window).scrollTop() > 100) {
+                            $('.scroll-top-wrapper').addClass('show');
+                        } else {
+                            $('.scroll-top-wrapper').removeClass('show');
+                        }
+                    });
+                
+                    $('.scroll-top-wrapper').on('click', scrollToTop);
+                });
+                
+                function scrollToTop() {
+                    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+                    element = $('body');
+                    offset = element.offset();
+                    offsetTop = offset.top;
+                    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+                }
+
+                });     
+        </script>
+    </body>
+</html>
