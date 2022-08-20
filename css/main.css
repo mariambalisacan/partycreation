@@ -104,7 +104,7 @@ nav .navbar-top {
   position: absolute;
   left: calc(50% - 35px);
   display: block;
-  width: 70px;
+  width: 60px;
   border-bottom: 3px solid #ffd700;
   content: "";
   margin: 10px;
@@ -1196,7 +1196,7 @@ li.list-inline-item a {
     content: "";
     position: absolute;
     width: 8%;
-    left: 61%;
+    left: 56%;
     height: 52px;
     border-bottom: 2px solid #ff9b00;
 }
@@ -1205,7 +1205,7 @@ li.list-inline-item a {
     content: "";
     position: absolute;
     width: 8%;
-    left: 39%; 
+    left: 33%;
     height: 52px;
     border-bottom: 2px solid #ff9b00;
 }
